@@ -1,0 +1,36 @@
+
+
+@keyframes toTop {
+    from {
+        top: 0;
+    }
+    to {
+        top: -0.5rem;
+    }
+}
+
+
+@keyframes borderColor {
+    50% {border: 2px solid $color-secondary;}
+}
+
+
+@keyframes btnContato  {
+	0% {
+		transform: scale(0.9);
+	}
+
+	 50% {
+	 	transform: scale(1);
+	 }
+
+	100% {
+		transform: scale(0.9);
+	}
+}
+
+
+
+
+
+

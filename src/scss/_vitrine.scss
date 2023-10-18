@@ -1,0 +1,52 @@
+.vitrine {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    margin:4rem 0;
+
+    &__item {
+        background-color: $color-04;
+        border-radius: 3rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 20rem;
+        padding: 4rem 2rem;
+        position: relative;
+        text-align:center;
+        box-shadow: 10px 0px 49px rgba(25, 7, 89, 0.08);
+        &:hover {
+            animation: toTop;
+            animation-duration: 1s;
+           box-shadow: 0 0 2px 2px rgb(113, 91, 219);
+        }
+    }
+
+    &__image {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+
+    &__title {
+        font-size: 2rem;
+        color: $color-secondary;
+        text-align: center;
+        width: 100%;
+    }
+
+    &__desc {
+        color: $font-color-primary;
+        font-size: $font-size-default;
+        margin-bottom: 3rem;
+        padding: 0 1rem;
+    }
+
+    .btn-webglow {
+        color:$color-04;
+        margin:0 auto;
+        width: 40%;
+    }
+
+}

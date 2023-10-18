@@ -1,0 +1,44 @@
+#depoimentos { 
+
+  .container {
+    column-gap: 7rem;
+    margin-top:5rem;
+  }
+
+  .title {
+   color: $color-05;
+  }
+
+  .subtitle {
+    color:$font-color-primary;
+  }
+
+.card-testemonail {
+  background-color: white;
+  box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1), 11px 6px 25px rgba(69, 38, 177, 0.1);
+  padding: 3.5rem;
+  border-top: 5px solid #4526b1;
+  border-radius: 0 0 20px 20px;
+  text-align: center;
+
+   &__quote {
+     color:$color-05;
+     font-family:$font-title; 
+     font-size:6rem;
+     margin: 0;
+   }
+
+
+  &__description {
+
+    font-size:$font-size-default;
+    margin: 0;
+
+  }    
+
+    &__client {
+      font-size:$font-small;
+     color:$color-secondary;
+   }
+}
+}

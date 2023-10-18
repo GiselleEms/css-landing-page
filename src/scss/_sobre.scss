@@ -1,0 +1,39 @@
+
+#sobre {
+    background-color: none;
+    
+    .container {
+        background-color: $color-05;
+        border-radius: 2.7rem;
+        margin: 2rem auto;
+        padding: 0 2rem 2rem;
+        align-items: center;
+    }
+
+   
+
+    article {
+        color: $color-04;
+        padding:0 3rem;
+        text-align: center;
+        
+        p {
+            font-size: $font-size-default;
+            margin-bottom:3rem;
+        }
+    }
+
+    .sobre-wrap {
+        &__img {
+            margin-bottom: -104px;
+            z-index: 99; 
+        }
+
+        .btn-webglow {
+            margin:0 auto;
+        }
+    }
+  
+}
+
+

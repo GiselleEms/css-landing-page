@@ -1,0 +1,48 @@
+#diferenciais {
+  margin-top: -178px;
+  
+  .container {
+    justify-content: center;
+    background: $color-04;
+    padding: 3rem;
+    border-radius: 37px;
+    box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1), 11px 6px 25px rgba(69, 38, 177, 0.1);
+    column-gap: 50px;
+}
+
+    .cards{
+      font-size:$font-small;
+      flex:1;
+      display:flex;
+      align-items:center;
+      padding:1rem;
+      border: 1px solid $color-04;
+      position: relative;
+      animation: borderColor 5s infinite;
+
+      &__icon {
+        height: 98px;
+        max-width: 98px;
+        width: 100%;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 15px;
+        background-color: $color-03;
+    }
+
+    &__title {
+      font-size:$font-size-01;
+      line-height:1.9rem;
+      margin-bottom:1rem;
+    }
+
+    &__description{
+      margin:0;
+      
+    }
+
+}
+
+}

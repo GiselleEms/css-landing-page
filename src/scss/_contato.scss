@@ -1,0 +1,61 @@
+#contato {
+  background-color:$color-04;
+  color:$color-04;
+
+   .container { 
+    background-color: #4526b1;
+    align-items: center;
+    width: 60vw;
+    border-radius: 5rem;
+    box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1), 11px 6px 25px rgba(69, 38, 177, 0.1);
+    padding: 50px;
+    column-gap: 5rem;
+}
+  .title {
+    font-size:2.5rem;
+    text-align: left;
+  }
+
+  .subtitle { 
+    text-align: left;
+    color:$color-04;
+    font-size:2rem;
+    line-height: 2.6rem;
+    letter-spacing: 6px;
+  }
+
+  .wrap-contato{
+    &__description,
+    &__btn {
+      flex:01;
+    }
+
+    &__btn {
+      
+      a {
+      display:flex; 
+      align-items: center;
+      justify-content: center;
+      column-gap: 10px;
+      background-color:$color-secondary;
+      padding:1rem;
+      border-radius: 5rem;
+      font-size: $font-size-default;
+      align-items: center;
+      animation: btnContato 6s infinite;
+      height: 3.5rem;
+      text-align: center; 
+      width: 80%;
+     margin: 3rem auto; 
+
+     &:hover {
+      background-color:#321c7e;
+     }
+  
+    }
+  }
+
+
+  }
+
+}

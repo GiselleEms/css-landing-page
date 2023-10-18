@@ -1,0 +1,57 @@
+
+header {
+        background-color: $color-04;
+        padding: 1.5rem 0;
+        box-shadow: 0px 12px 42px #4526b161, 11px 6px 25px #0000008f;
+        z-index: 99;
+        position: relative;
+
+    .container {
+
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    }
+
+        h1 {
+            padding: 1rem 0 0;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+.hero {
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 45rem;
+        display: flex;
+        padding-bottom: 4rem;
+        width: 100%;
+        background-image: url(../assets/images/banner-webglow.jpg);
+        background-size: cover;
+        min-height: 1000px;
+        justify-content: right;       
+        color: $color-04;
+    
+   .container {
+    margin:0 10rem 0 0;
+    flex-flow: column;
+   }
+    .subtitle { 
+        color: $color-04; 
+        text-align: left;
+    }
+
+    .title { 
+    text-align: left; }
+
+    &__description {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.5;
+        margin-top: 30px;
+        max-width: 510px;
+    }
+
+}
