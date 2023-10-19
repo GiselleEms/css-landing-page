@@ -1,0 +1,244 @@
+@media(max-width:1024px) {
+
+.title {
+  font-size: 46px;
+}
+
+.btn-webglow { 
+  width: 50%;
+  &:hover {
+    width: 80%; 
+}
+
+}
+
+.hero {
+.container {
+  margin: 0 5rem 0 0;
+  flex-flow: column;
+  }
+}
+
+#diferenciais {
+  .container {
+   column-gap: 16px;
+}
+
+.cards__icon {
+  height: 70px;
+  max-width: 70px;
+  }
+}
+
+#sobre{
+  .container {
+  flex-flow: column-reverse;
+  }
+
+.sobre-wrap__img {
+   margin-top: 3rem;
+  }
+}
+
+#produtos {
+  .container {
+   max-width: 90vw;
+ }
+}
+
+.vitrine {
+  .btn-webglow {
+    width: 66%;
+  }
+}
+
+#contato {
+  .title {
+  font-size: 2rem;
+   text-align: left;
+  }
+}
+
+#contato {
+  .subtitle {
+  text-align: left;
+  color: #fff;
+  font-size: 1.5rem;}
+}
+}
+
+@media(max-width:899px) {
+
+.title {
+    font-size: 4rem;
+}
+
+#diferenciais { 
+  .cards {
+  padding: 2rem;
+  flex-direction: column; 
+  text-align: center;
+}
+}
+
+#depoimentos {
+  .container {
+  column-gap: 3rem;
+  margin-top: 5rem;
+}
+}
+
+#contato {
+.title {
+  font-size: $font-size-default; 
+}
+
+.container { 
+  column-gap: 1rem;
+}
+
+.wrap-contato__btn {
+  
+a {  
+  width: 77%; 
+}
+ 
+}
+
+}
+ 
+}
+
+
+@media(max-width:650px) {
+.container {
+  max-width: 100%;
+  flex-flow: column;
+}
+
+.nav {
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 1.2rem;
+
+  .nav__item { 
+      font-size: $font-size-default; 
+  }
+
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.btn-webglow { 
+  margin: 0 auto;
+
+  &:hover {
+    width: 90%; 
+}
+
+}
+
+.subtitle { 
+  line-height: 3rem;
+}
+
+.hero {
+  justify-content: center;
+  
+  .subtitle, .title, .hero__description {
+  text-align: center;
+}
+
+.container {
+  margin: 0;}
+
+  .hero__description {
+    font-size: $font-size-01;}
+
+}
+
+#diferenciais {
+  margin-top: -280px;
+
+  .container {
+  column-gap: 16px;
+  row-gap: 3rem;
+}
+
+.cards__icon {
+  height: 26px;
+  max-width: 26px; 
+  margin: 0; 
+}
+
+ .cards__title {
+  margin-top: 1rem;
+}
+
+}
+
+#sobre {
+
+ article { 
+  padding: 0;}
+ 
+  img {
+    width:100%;
+    height:auto;
+  }
+
+}
+
+.vitrine {
+  grid-template-columns: repeat(1, 4fr); 
+ 
+}
+
+#depoimentos{
+.title {
+  font-size: 2rem;
+}
+
+.container { 
+  row-gap: 3rem;
+}
+
+.card-testemonail { 
+  padding: 2rem; 
+  width: 85%;
+  margin: 0 auto;
+}
+
+.card-testemonail__description {
+  font-size: $font-small;
+}
+
+}
+
+#contato 
+{.container {
+  padding: 5rem 3rem;
+}
+
+ .subtitle {
+  text-align: center;
+}
+
+.wrap-contato__btn {
+  
+  a { 
+  padding: 1rem;
+ 
+  font-size: 1.4rem; 
+  height: 6rem; 
+  width: 100%; 
+}
+
+}
+
+}
+
+
+}

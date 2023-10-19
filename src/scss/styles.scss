@@ -14,6 +14,10 @@ $font-size-01: 1.8rem;
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 @import 'nav';
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -24,6 +28,8 @@ body {
     font-family: $font-default;
     margin: 0;
 }
+
+
 
 h1,
 h2,
@@ -110,12 +116,13 @@ section {
     position: relative;
     font-family: "Jost", sans-serif;
     font-weight: 700;
-    width: 26%;
+    width: 34%;
     text-align: center;
     transition: width 0.5s ease-in-out;
+    box-sizing: content-box;
 
     &:hover {
-        width: 30%; 
+        width: 40%; 
         color:$color-primary;
 
     }
@@ -133,3 +140,4 @@ section {
 @import 'footer';
 @import 'diferenciais';
 @import 'contato';
+@import 'responsive';
